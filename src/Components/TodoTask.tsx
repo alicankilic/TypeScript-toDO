@@ -8,7 +8,7 @@ interface Props{
 
 
 const TodoTask = ({task}:Props) => {
-    return <div>{task.taskName}</div>
+    return <div>TaskName : {task.taskName}, TaskDeadline : {task.deadline} </div>
 }
 
 export default TodoTask;
